@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /upms
+
+spring:
+  dubbo:
+    application:
+      name: upms-consumer
+      registry: zookeeper://192.168.0.145:2181
