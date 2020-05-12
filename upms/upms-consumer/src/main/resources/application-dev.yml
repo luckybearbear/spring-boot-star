@@ -1,0 +1,15 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+
+spring:
+  dubbo:
+    application:
+      name: upms-provider
+      registry: zookeeper://127.0.0.1:2181
+
+developer:
+  name: dev环境 zjcoding
+  website: dev环境 http://127.0.0.1
+  qq: dev环境 529140702
+  phone-number: dev环境 ???????

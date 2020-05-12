@@ -4,7 +4,5 @@ server:
     context-path: /upms
 
 spring:
-  dubbo:
-    application:
-      name: upms-provider
-      registry: zookeeper://192.168.0.145:2181
+  profiles:
+    active: dev

@@ -1,0 +1,15 @@
+application:
+  name: prod环境 @artifactId@
+  version: prod环境 @version@
+
+spring:
+  dubbo:
+    application:
+      name: upms-provider
+      registry: zookeeper://127.0.0.1:2181
+
+developer:
+  name: prod环境 xkcoding
+  website: prod环境 http://127.0.0.1:8080
+  qq: prod环境 529140702
+  phone-number: prod环境 ??????
